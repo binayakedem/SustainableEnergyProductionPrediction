@@ -1,0 +1,8 @@
+.main-chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    color: #000000;
+}

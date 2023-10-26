@@ -1,0 +1,68 @@
+/* ChangingBackground.css */
+
+.changing-background {
+  margin: 0;
+  padding: 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    animation: changeBackground 20s linear infinite;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @keyframes changeBackground {
+    0% {
+      background-image: url('../image/world.jpg');
+    }
+    25% {
+      background-image: url('../image/wind.jpg');
+    }
+    50% {
+      background-image: url('../image/hydro.jpg');
+    }
+    75% {
+      background-image: url('../image/solar.jpg');
+    }
+    100% {
+      background-image: url('../image/world.jpg');
+    }
+  }
+
+  /* styling */
+  .body-input form{
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  .inputs{
+    height: 2rem;
+    padding: 0.6rem;
+    margin: 0.2rem;
+  }
+  .label-color-input{
+    color: #ffffff;
+  }
+  .btn{
+    height: 2.2rem;
+    border-radius: 0.6rem;
+    background: #48C353;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0.2rem 0.1rem solid #009CD1;
+  }
+  .btn:hover{
+    transition-duration: 0.1s;
+    box-shadow: 0.3rem 0.3rem 0.4rem #000000;
+  }
+  .input-field{
+    height: 2rem;
+    border-radius: 0.6rem;
+    color: #000000;
+    font-weight: bold;
+
+  }
