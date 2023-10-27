@@ -1,14 +1,15 @@
+import Routings from './Components/Routings'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
-import Output from "./Components/Output";
+import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div>
-     <Navbar/>
-      <Output/>
+      <BrowserRouter>
+      <Navbar/>
+      <Routings/>
       <Footer/>
-    
-    
+      </BrowserRouter>
     </div>
   );
 }

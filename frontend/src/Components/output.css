@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* This ensures the container takes the full viewport height */
+    overflow: hidden;
   }
   .bar-chart{
     display: flex;
@@ -23,3 +24,33 @@
     text-decoration: underline;
   }
   
+
+  /* predict again button */
+
+  .predict-again{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .predict-again-link{
+    width: 30%;
+    height: 10%;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.6rem;
+    background: #48C353;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0.1rem  solid #009CD1;
+    box-shadow: 0.2rem 0.2rem 0.2rem #000000;
+
+  }
+  .predict-again-link:hover{
+    transition-duration: 0.1s;
+    box-shadow: 0.4rem 0.4rem 0.5rem #000000;
+  }

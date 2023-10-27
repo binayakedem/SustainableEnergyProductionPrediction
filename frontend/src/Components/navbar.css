@@ -34,3 +34,7 @@
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden; /* Hide overflowing text */
 }
+.main-nav Link{
+  text-decoration: none;
+  color: #000000;
+}

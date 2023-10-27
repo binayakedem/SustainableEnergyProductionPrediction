@@ -1,17 +1,17 @@
 import React from 'react'
-import {BrowserRouter,Routes,Route} from "react-router-dom"
+import {Routes,Route} from "react-router-dom"
 import Output from './Output'
-import Home from './Home'
+import Body from './Body'
 const Routings = () => {
   return (
     <div>
-        <BrowserRouter>
+        
         <Routes>
-            <Route to='/' element={Home}/>
-            <Route to='/output' element={Output}/>
+            <Route path='/' exact Component={Body}/>
+            <Route path='/output' Component={Output}/>
         </Routes>
         
-        </BrowserRouter>
+       
     </div>
   )
 }
